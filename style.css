@@ -1,0 +1,45 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.color-orange{
+    color: orange;
+}
+section{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+    padding-top: 5%;
+}
+.hire-button{
+    text-decoration: none;
+    
+    font-size: medium;
+    font-weight: 700;
+    background-image: linear-gradient(orange, pink);
+    padding: 10px 20px;
+    border-radius: 10%;
+}
+.sectionOne{
+background-image: url(images/top-banner.png);
+background-repeat: no-repeat;
+
+}
+
+.sectionTwo{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+
+    
+}
