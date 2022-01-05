@@ -51,9 +51,7 @@ background-repeat: no-repeat;
 }
 .boxShadow{
     margin: 30px;
-    background-color: linear-gradient(yellow green);
-    -moz-box-shadow:    3px 3px 5px 6px #ccc;
-    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  
     box-shadow:         3px 3px 5px 6px #ccc;
     
 }
@@ -70,9 +68,10 @@ background-repeat: no-repeat;
 footer{
     box-shadow:         3px 3px 5px 6px #ccc; 
     background-image: linear-gradient(gray, cyan);
+   
 }
 footer p{
     text-align: right;
     padding-right: 50px;
-    
+    padding-bottom: 5px;
 } 
