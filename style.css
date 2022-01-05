@@ -7,8 +7,12 @@ h1{
 }
 .color-orange{
     color: orange;
+
 }
-section{
+.color-gradient{
+    color: tomato;
+}
+.twocoulmn{
     display: flex;
     margin-bottom: 100px;
 }
@@ -38,8 +42,28 @@ background-repeat: no-repeat;
 .sectionTwo{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
-    
+    background-position: right; 
+}
+.sectionThree{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
 
+}
+.boxShadow{
+    margin: 30px;
+    background-color: linear-gradient(yellow green);
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
     
 }
+#fullstackWebdeveloper{
+    border-left: 6px solid;
+    border-image: linear-gradient(tomato, red);
+    border-image-slice: 1;
+}
+#puchkaWebdeveloper{
+    border-left: 6px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+} 
